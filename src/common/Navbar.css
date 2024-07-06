@@ -1,0 +1,84 @@
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #070b38;
+  color: #fff;
+  width: 100%; /* Ocupa todo el ancho de la página */
+  z-index: 1000;
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-item {
+  padding: 1rem;
+}
+
+.navbar-text {
+  background-color: transparent;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5em;
+  padding: 1rem 1rem;
+}
+
+.navbar-text button {
+  background-color: transparent;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5em;
+}
+
+.navbar-text button:hover {
+  background-color: #331572;
+  border: none;
+}
+
+.navbar-item button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5em;
+}
+
+.navbar-item button:hover {
+  background-color: #fff;
+  color: #070b38;
+}
+
+
+.navbar-logo-img {
+  width: auto;
+  height: 35px;
+}
+
+.user-dropdown {
+  position: relative; /* Para permitir la posición absoluta del menú */
+  display: inline-block; /* Para que el ancho se ajuste al contenido */
+}
+
+.dropdown-menu {
+  position: absolute; /* Para colocar el menú de manera absoluta */
+  top: 100%; /* Lo coloca debajo del enlace */
+  left: -90%; /* Lo coloca a la izquierda del enlace */
+  display: none; /* Inicialmente oculto */
+  background-color: #333;
+  border: 0px solid #333;
+  padding: 10px;
+  min-width: 160px;
+
+  z-index: 2;
+}
+
+.user-dropdown:hover .dropdown-menu {
+  display: block; /* Mostrar cuando se pasa el cursor sobre user-dropdown */
+}

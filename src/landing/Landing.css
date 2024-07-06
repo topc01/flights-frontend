@@ -1,0 +1,131 @@
+
+.plane-image {
+  width: 100%;
+  left: 0;
+  top: 105px;
+  position: absolute;
+}
+
+
+.search-box {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-form input {
+  width: 50%;
+  margin-right: 30px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #070b38;
+}
+
+.search-form button {
+  padding: 9px 20px;
+  background-color: rgb(242, 6, 65);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #911040;
+}
+
+.anuncios {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  width: 45%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.anuncios img {
+  float: right;
+  margin-left: 10px;
+  width: 300px;
+}
+
+.anuncios-text {
+  overflow: hidden;
+}
+
+.info-box {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.info-buttons button{
+  display: inline-block;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #0c1361;
+  border: 1px solid #0c1361;
+  border-radius: 5px;
+  padding: 10px 20px;
+  max-width: 30%;
+}
+
+.info-buttons button:hover {
+  background-color: #0c1361;
+  color: #fff;
+}
+
+
+
